@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+
+    <div class="first p-12 lg:py-16 lg:px-32">
+      <div class="first__nav mb-64 flex justify-between">
+        <div class="first__nav__logo">
+          <img src="images/logo.svg" alt="">
+        </div>
+        <div class="first__nav__link">
+         <div id="ham" class="ham xl:hidden sm:flex">
+          <img src="images/icon-hamburger.svg" alt="">
+         </div>
+         <div id="menu" class="menu xl:hidden bg-black text-white text-4xl">
+            <div id="close" class="close absolute text-3xl">
+              <img src="images/icon-close.svg" alt="">
+            </div>
+          <ul class="">
+            <li><a href=""></a>About</li>
+            <li><a href=""></a>Careers</li>
+            <li><a href=""></a>Events</li>
+            <li><a href=""></a>Products</li>
+            <li><a href=""></a>Support</li>
+          </ul>
+         </div>
+          <ul class="none space-x-4 text-white sm:hidden xl:flex">
+            <li><a href=""></a>About</li>
+            <li><a href=""></a>Careers</li>
+            <li><a href=""></a>Events</li>
+            <li><a href=""></a>Products</li>
+            <li><a href=""></a>Support</li>
+          </ul>
+        </div>
+      </div>
+      <div class="first__content">
+        <h1 class="lg:text-7xl text-6xl text-white w-8">Immersive experiences that deliver</h1>
+      </div>
+    </div>
+
+    <div class="second p-12 lg:p-32">
+      <div class="second__content">
+        <div class="second__content1">
+          <img src="images/desktop/image-interactive.jpg" alt="">
+        </div>
+        <div class="second__content2 bg-white lg:w-2/5 sm:w-full p-16 shadow-lg">
+          <h1 class="text-3xl">The leader in interactive VR</h1>
+          <h3 class="text-md">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="third">
+      <div class="third__top flex justify-between p-12 lg:px-32">
+        <div class="third__top__title">
+          <h1 class="text-5xl uppercase">our creations</h1>
+        </div>
+        <div class="third__top__all text-xl border-solid border-black border-2 px-6 py-1 sm:block none">
+          <button>see all</button>
+        </div>
+      </div>
+      <div class="third__content p-12 lg:py-12 lg:px-32 mt-5">
+        <div class="third__content__row1 lg:justify-between sm:flex sm:flex-col lg:flex lg:flex-row">
+          <img class="sm:h-48 sm:object-cover lg:m-0 lg:h-full  sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-deep-earth.jpg" alt="">
+          <img class="sm:h-48 sm:object-cover lg:h-full  sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-night-arcade.jpg" alt="">
+          <img class="sm:h-48 sm:object-cover lg:h-full  sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-soccer-team.jpg" alt="">
+          <img class="sm:h-48 sm:object-cover lg:h-full  sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-grid.jpg" alt="">
+        </div>
+        <div class="third__content__row2 lg:justify-between mt-5 sm:flex sm:flex-col lg:flex lg:flex-row">
+          <img class="sm:h-48 sm:object-cover lg:h-full sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-from-above.jpg" alt="">
+          <img class="sm:h-48 sm:object-cover lg:h-full sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-pocket-borealis.jpg" alt="">
+          <img class="sm:h-48 sm:object-cover lg:h-full sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-curiosity.jpg" alt="">
+          <img class="sm:h-48 sm:object-cover lg:h-full sm:mb-4 lg:h-64 xl:h-full w-full h-48 object-cover mb-2" src="images/desktop/image-fisheye.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer bg-black text-white py-16 px-32 none">
+      <div class="footer__top flex justify-between">
+        <div class="footer__top__logo mb-8">
+        <img src="images/logo.svg" alt="">
+        </div>
+        <div class="footer__top__social flex space-x-4 h-8">
+          <img src="images/icon-facebook.svg" alt="">
+          <img src="images/icon-instagram.svg" alt="">
+          <img src="images/icon-pinterest.svg" alt="">
+          <img src="images/icon-twitter.svg" alt="">
+        </div>
+      </div>
+      <div class="footer__buttom flex justify-between">
+        <div class="footer__buttom__nav">
+          <ul class="flex space-x-4">
+            <li><a href=""></a>About</li>
+            <li><a href=""></a>Careers</li>
+            <li><a href=""></a>Events</li>
+            <li><a href=""></a>Products</li>
+            <li><a href=""></a>Support</li>
+          </ul>
+        </div>
+        <div class="footer__buttom__copyright">
+          © 2021 Loopstudios. All rights reserved.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<script src="index.js"></script>
+</html>

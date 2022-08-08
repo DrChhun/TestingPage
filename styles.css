@@ -1,0 +1,62 @@
+.first {
+    background-image: url(images/desktop/image-hero.jpg);
+    /* height: 80vh; */
+    background-size: cover;
+}
+
+/* .first__content h1 {
+    border: solid 2px white;
+    width: fit-content;
+    width: 30%;
+    padding: 1.5rem;
+} */
+
+.second__content {
+    position: relative;
+    z-index: -1;
+}
+
+.second__content2 {
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+
+}
+
+.menu {
+    z-index: 1;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 1s;
+}
+
+.close {
+    top: 5rem;
+    right: 5rem;
+}
+
+.show {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
+
+
+@media (min-width: 400px) and (max-width: 1024px) {
+    .second__content {
+        position: static;
+    }
+
+    .second__content2 {
+        position: static;
+    }
+}
